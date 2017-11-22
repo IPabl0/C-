@@ -19,6 +19,11 @@ switch(letra){
 	case 'i':
 	case 'o':
 	case 'u': cout<<"Es una vocal minuscula";break;
+	case 'A':
+	case 'E':
+	case 'I':
+	case 'O':
+	case 'U': cout<<"Es una vocal mayuscula";break;
 	default : cout<<"No es una vocal minuscula"; break;	
 }
     return 0;
